@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+
+  <XenotypeDef>
+    <defName>LKHumanPlus</defName>
+    <label>HumanPlus</label>
+    <description>Human Plus are a type of archotech-enhanced xenohuman. Powered by archites, their abilities go far beyond normal genetic enhancements. They are mentally adept and preternaturally beautiful.</description>
+    <descriptionShort>Human Plus are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Sanguophage</iconPath>
+    <soundDefOnImplant>PawnBecameSanguophage</soundDefOnImplant>
+    <generateWithXenogermReplicatingHediffChance>0.5</generateWithXenogermReplicatingHediffChance>
+    <xenogermReplicatingDurationLeftDaysRange>0.1~140</xenogermReplicatingDurationLeftDaysRange>
+    <combatPowerFactor>2.5</combatPowerFactor>
+    <displayPriority>-1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <doubleXenotypeChances>
+      <Pigskin>0.02</Pigskin>
+      <Impid>0.02</Impid>
+      <Yttakin>0.02</Yttakin>
+      <Neanderthal>0.02</Neanderthal>
+      <Waster>0.02</Waster>
+      <Dirtmole>0.02</Dirtmole>
+    </doubleXenotypeChances>
+    <genes>
+      <li>Ageless</li>
+      <li>Deathless</li>
+      <li>PsychicAbility_Extreme</li>
+      <li>LowSleep</li>
+      <li>Beauty_Pretty</li>
+      <li>MoveSpeed_VeryQuick</li>
+      <li>DarkVision</li>
+      <li>TotalHealing</li>
+      <li>PerfectImmunity</li>
+      <li>DiseaseFree</li>
+      <li>ToxResist_Total</li>
+      <li>WoundHealing_SuperFast</li>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">VacuumResistance_Total</li>
+      <li>ArchiteMetabolism</li>
+      <li>Robust</li>
+      <li>MinTemp_LargeDecrease</li>
+      <li>MaxTemp_LargeIncrease</li>
+      <li>Learning_Fast</li>
+      <li>StrongStomach</li>
+      <li>Superclotting</li>
+      <li>XenogermReimplanter</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>
