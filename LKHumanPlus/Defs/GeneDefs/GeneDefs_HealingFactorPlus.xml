@@ -1,0 +1,61 @@
+<Defs>
+
+  <GeneDef>
+    <defName>LK_Fast_TotalHealing</defName>
+    <label>Healing Factor Plus</label>
+    <labelShortAdj>hfactorplus</labelShortAdj>
+    <description>Carriers of this gene can regenerate scars and missing limbs.As well as many other things due to their xenotype.</description>
+    <customEffectDescriptions>
+      <li>Every few days, one old wound, limb, or chronic illness is healed.As well as many other things due to their xenotype.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <geneClass>Gene_Healing</geneClass>
+    <statFactors>
+      <InjuryHealingFactor>8</InjuryHealingFactor>
+      <RawNutritionFactor>1.8</RawNutritionFactor>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      <MoveSpeed>0.6</MoveSpeed>
+      <GlobalLearningFactor>0.6</GlobalLearningFactor>
+    </statFactors>
+    <preventPermanentWounds>true</preventPermanentWounds>
+    <biostatCpx>1</biostatCpx>
+    <biostatArc>1</biostatArc>
+    <biostatMet>8</biostatMet>
+    <displayCategory>Archite</displayCategory>
+     <abilities>
+      <li>ReimplantXenogerm</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>ReimplantXenogerm</AbilityDef>
+    </descriptionHyperlinks>
+     <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+    <makeImmuneTo>
+      <li>Flu</li>
+      <li>Malaria</li>
+      <li>SleepingSickness</li>
+      <li>Plague</li>
+      <li>WoundInfection</li>
+      <li>LungRot</li>
+      <li>GutWorms</li>
+      <li>MuscleParasites</li>
+      <li>OrganDecay</li>
+    </makeImmuneTo>
+    <exclusionTags>
+    <li>Immunity</li>
+   </exclusionTags>
+  </GeneDef>
+
+  
+</Defs>
