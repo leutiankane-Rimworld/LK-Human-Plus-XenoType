@@ -29,23 +29,15 @@
       <li>PsychicAbility_Extreme</li>
       <li>LowSleep</li>
       <li>Beauty_Pretty</li>
-      <li>MoveSpeed_VeryQuick</li>
       <li>DarkVision</li>
-      <li>TotalHealing</li>
-      <li>PerfectImmunity</li>
-      <li>DiseaseFree</li>
       <li>ToxResist_Total</li>
-      <li>WoundHealing_SuperFast</li>
       <li MayRequire="Ludeon.Rimworld.Odyssey">VacuumResistance_Total</li>
-      <li>ArchiteMetabolism</li>
-      <li>Robust</li>
-      <li>MinTemp_LargeDecrease</li>
-      <li>MaxTemp_LargeIncrease</li>
-      <li>Learning_Fast</li>
       <li>StrongStomach</li>
       <li>Superclotting</li>
-      <li>XenogermReimplanter</li>
+      <li>LK_Fast_TotalHealing</li>
+      <li MayRequire=">guy762.StarWarsXenotypes">BS_Fast_TotalHealing</li>
     </genes>
   </XenotypeDef>
+
 
 </Defs>
