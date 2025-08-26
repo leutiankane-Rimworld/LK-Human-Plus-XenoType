@@ -14,8 +14,6 @@
       <InjuryHealingFactor>8</InjuryHealingFactor>
       <RawNutritionFactor>1.8</RawNutritionFactor>
       <StaggerDurationFactor>0</StaggerDurationFactor>
-      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
-      <ComfyTemperatureMax>20</ComfyTemperatureMax>
       <MoveSpeed>0.6</MoveSpeed>
       <GlobalLearningFactor>0.6</GlobalLearningFactor>
     </statFactors>
@@ -58,4 +56,5 @@
   </GeneDef>
 
   
+
 </Defs>
