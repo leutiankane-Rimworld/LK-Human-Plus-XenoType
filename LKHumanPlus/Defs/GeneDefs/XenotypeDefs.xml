@@ -35,9 +35,12 @@
       <li>StrongStomach</li>
       <li>Superclotting</li>
       <li>LK_Fast_TotalHealing</li>
+      <li>MinTemp_LargeDecrease</li>
+      <li>MaxTemp_LargeIncrease</li>
       <li MayRequire=">guy762.StarWarsXenotypes">BS_Fast_TotalHealing</li>
     </genes>
   </XenotypeDef>
 
 
 </Defs>
+
