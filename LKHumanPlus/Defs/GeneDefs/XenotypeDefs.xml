@@ -10,19 +10,12 @@
     <descriptionShort>Human Plus are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Sanguophage</iconPath>
     <soundDefOnImplant>PawnBecameSanguophage</soundDefOnImplant>
-    <generateWithXenogermReplicatingHediffChance>0.5</generateWithXenogermReplicatingHediffChance>
+    <generateWithXenogermReplicatingHediffChance>0.1</generateWithXenogermReplicatingHediffChance>
     <xenogermReplicatingDurationLeftDaysRange>0.1~140</xenogermReplicatingDurationLeftDaysRange>
     <combatPowerFactor>2.5</combatPowerFactor>
     <displayPriority>-1000</displayPriority>
     <factionlessGenerationWeight>0</factionlessGenerationWeight>
-    <doubleXenotypeChances>
-      <Pigskin>0.02</Pigskin>
-      <Impid>0.02</Impid>
-      <Yttakin>0.02</Yttakin>
-      <Neanderthal>0.02</Neanderthal>
-      <Waster>0.02</Waster>
-      <Dirtmole>0.02</Dirtmole>
-    </doubleXenotypeChances>
+   <inheritable>true</inheritable>
     <genes>
       <li>Ageless</li>
       <li>Deathless</li>
@@ -35,12 +28,13 @@
       <li>StrongStomach</li>
       <li>Superclotting</li>
       <li>LK_Fast_TotalHealing</li>
-      <li>MinTemp_LargeDecrease</li>
-      <li>MaxTemp_LargeIncrease</li>
+      <li MayRequire="sarg.alphagenes">AG_HeatImmunity</li>
+      <li MayRequire="sarg.alphagenes">AG_ColdImmunity</li>
       <li MayRequire=">guy762.StarWarsXenotypes">BS_Fast_TotalHealing</li>
     </genes>
   </XenotypeDef>
 
 
 </Defs>
+
 
