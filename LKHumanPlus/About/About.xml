@@ -6,7 +6,7 @@
         <li>1.6</li>
     </supportedVersions>
     <packageId>LeutianKane.HumanPlus</packageId>
-    <description>Adds Human Plus XenoType , a custom xenotype i made in character editor that i wanted to translate to a mod.</description>
+    <description>Adds Evolved Human XenoType , a custom xenotype i made in character editor that i wanted to translate to a mod.</description>
     <modDependencies>
      <li>
             <packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -33,4 +33,5 @@
         <li>brrainz.harmony</li>
         <li>neronix17.toolbox</li>
     </loadAfter>
+
 </ModMetaData>
