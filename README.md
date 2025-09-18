@@ -3,10 +3,12 @@
 
 ---Also adds the Evolved Humans faction a neutral faction full of this xeno type.  
 
----Breathless gene only shows up if you have odyssey installed. 
+---Breathless gene only shows up if you have Odyssey DLC installed. 
 
----Also Adds Cold and heat immunity genes if Alpha Genes is installed, as well as Regeneration gene if Star Wars Xenotypes mod is installed.
+---Adds Cold and Heat Immunity genes if Alpha Genes is installed. 
 
----Also adds a Starting scenario based on crash landed vanilla scenario with this xenotype, and grants you reinforcements every 3 days up to a max of 12 colonists.
+---Adds Regeneration gene if Star Wars Xenotypes mod is installed.
 
----All XenoGenes are now Endogenes now so theyre inheritable.
+---Adds a Starting scenario based on crash landed vanilla scenario with this xenotype, and grants you reinforcements every 3 days up to a max of 12 colonists.
+
+---All Xenogenes are now Endogenes now so they're inheritable.
