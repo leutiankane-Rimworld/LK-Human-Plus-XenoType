@@ -24,7 +24,7 @@
           <xenotypeCounts>
             <li>
               <xenotype>LKHumanPlus</xenotype>
-              <count>8</count>
+              <count>4</count>
 			  <requiredAtStart>true</requiredAtStart>
             </li>
           </xenotypeCounts>
@@ -97,4 +97,5 @@
 
 
 </Defs>
+
 
