@@ -17,7 +17,7 @@
           <pawnChoiceCount>8</pawnChoiceCount>
           <overrideKinds>
             <li>
-              <xenotype>LK_HumanPlus</xenotype>
+              <xenotype>LKHumanPlus</xenotype>
               <pawnKind>LK_HumanPlus_Recruit</pawnKind>
             </li>
           </overrideKinds>
@@ -94,5 +94,6 @@
 	</ScenarioDef>
 
 	
+
 
 </Defs>
