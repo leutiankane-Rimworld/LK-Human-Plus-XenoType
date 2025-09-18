@@ -27,6 +27,10 @@
               <count>4</count>
 			  <requiredAtStart>true</requiredAtStart>
             </li>
+			<li>
+              <xenotype>LKHumanPlus</xenotype>
+              <count>4</count>
+            </li>
           </xenotypeCounts>
         </li>
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
@@ -97,5 +101,6 @@
 
 
 </Defs>
+
 
 
