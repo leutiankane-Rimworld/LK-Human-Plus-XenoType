@@ -40,6 +40,7 @@
       <li>IndustrialAdvanced</li>
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
+	  <li>SpacerMilitary</li>
 	  <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_ArmorLight</li>
 	  <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_HeadgearLight</li>
 	  <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Armor</li>
@@ -123,6 +124,7 @@
 		<apparelTags>
 		    <li>IndustrialAdvanced</li>
             <li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
 			<li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Armor</li>
 	        <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Headgear</li>
 		</apparelTags>
@@ -133,6 +135,7 @@
 		<apparelTags>
 		    <li>IndustrialAdvanced</li>
             <li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
 			<li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Armor</li>
 	        <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Headgear</li>
 		</apparelTags>
@@ -175,6 +178,7 @@
 		<apparelTags>
 		    <li>IndustrialAdvanced</li>
             <li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
 			<li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Armor</li>
 	        <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Headgear</li>
 		</apparelTags>
