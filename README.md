@@ -15,4 +15,4 @@
 
 ---Added new trait that gives +4 to all skills that is forced by the Main Gene for this xeno.
 
----If LK Ultimate Armory mod is installed , grants chance for the gear to spawn the Evolved Humans and every other faction along with normal gear 
+---If LK Ultimate Armory mod is installed , grants chance for the gear to spawn on the Evolved Humans and every other faction along with normal gear 
