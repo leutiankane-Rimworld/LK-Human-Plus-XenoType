@@ -10,7 +10,7 @@
 
 ---Adds Regeneration gene if Star Wars Xenotypes mod is installed.
 
----Adds a Starting scenario based on crash landed vanilla scenario with this xenotype, (if Tabula Rasa mod is installed)and grants you reinforcements every 3 days up to a max of 12 colonists.
+---Adds a Starting scenario based on crash landed vanilla scenario with this xenotype, if Tabula Rasa mod is installed  grants you reinforcements every 3 days up to a max of 12 colonists.
 
 ---All Xenogenes are now Endogenes now so they're inheritable.
 
