@@ -19,3 +19,5 @@
 ---Added new trait that gives +4 to all skills that is forced by the Main Gene for this xeno.
 
 ---If LK Ultimate Armory mod is installed , grants chance for the gear to spawn on the Evolved Humans and every other faction along with normal gear 
+
+---Sept. 29,2025 update will require you to enable developer mode if you have an existing save with colonists of this xenotype, then go into Bio Tab click on their Xenotype and use the developer mode to reset genes to base (the last option on the list). this will fix the missing gene from me changing the def name of it.
