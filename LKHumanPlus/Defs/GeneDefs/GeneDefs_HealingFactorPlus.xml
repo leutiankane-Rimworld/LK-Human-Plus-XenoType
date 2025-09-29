@@ -1,32 +1,27 @@
 <Defs>
 
   <GeneDef>
-    <defName>LK_Fast_TotalHealing</defName>
+    <defName>LK_Evolved_Master_Gene</defName>
     <label>Evolved Human Master Gene</label>
     <labelShortAdj>ehmastergene</labelShortAdj>
     <description>Carriers of this gene can regenerate scars and missing limbs.As well as many other things due to their xenotype.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <geneClass>Gene_Healing</geneClass>
     <displayOrderInCategory>10</displayOrderInCategory>
-    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+   
     <customEffectDescriptions>
       <li>Regeneration</li>
       <li>Tox gas immunity</li>
-      <li>Never Prison Break</li>
-      <li>Never Social Fight</li>
-      <li>Never get Food Poisoning</li>
       <li>Super Immune</li>
       <li>Non-senescent</li>
       <li>Perfect Immunity</li>
       <li>Beautiful</li>
-      <li>Fire and cold immune</li>
       <li>Unstoppable</li>
       <li>Jogger</li>
       <li>Tough</li>
       <li>Nimble</li>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">Breathless</li>
-      <li>DarkVision</li>
     </customEffectDescriptions>
+    <!--Stat Multiplier adjusters-->
     <statFactors>
     <EatingSpeed>1.3</EatingSpeed>
      <Flammability>0.0</Flammability>
@@ -44,15 +39,12 @@
       <ForagedNutritionPerDay>1.75</ForagedNutritionPerDay>
       <PsychicEntropyRecoveryRate>1.5</PsychicEntropyRecoveryRate>
     </statFactors>
+    <!--More Stat Multiplier Adjusters-->
     <statOffsets>
-            <CarryingCapacity>300</CarryingCapacity>
-            <VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">300</VEF_MassCarryCapacity>
             <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
             <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
             <ArmorRating_Heat>0.5</ArmorRating_Heat>
             <MentalBreakThreshold>-0.15</MentalBreakThreshold>
-            <ComfyTemperatureMin>-273</ComfyTemperatureMin>
-            <ComfyTemperatureMax>232</ComfyTemperatureMax>
             <PawnBeauty>3</PawnBeauty>
             <ToxicResistance>1</ToxicResistance>
             <WorkSpeedGlobal>0.65</WorkSpeedGlobal>
@@ -60,30 +52,15 @@
             <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
             <AimingDelayFactor>-0.5</AimingDelayFactor>
             <MeleeDodgeChance>15</MeleeDodgeChance>
-             <MeleeHitChance>4</MeleeHitChance>
-            <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">1</VacuumResistance> 
+             <MeleeHitChance>4</MeleeHitChance> 
             <NegotiationAbility>0.25</NegotiationAbility>
-          <ArrestSuccessChance>0.25</ArrestSuccessChance>
+           <ArrestSuccessChance>0.25</ArrestSuccessChance>
            <PainShockThreshold>0.05</PainShockThreshold>
            <CleaningSpeed>0.55</CleaningSpeed>
            <MiningYield>0.2</MiningYield>
 					<ConstructionSpeed>0.2</ConstructionSpeed>
     </statOffsets>
-    <damageFactors>
-      <Flame>0.0</Flame>
-      <Frostbite>0</Frostbite>
-    </damageFactors>
-    <preventPermanentWounds>true</preventPermanentWounds>
-    <biostatCpx>1</biostatCpx>
-    <biostatArc>1</biostatArc>
-    <biostatMet>8</biostatMet>
-    <displayCategory>Archite</displayCategory>
-     <abilities>
-      <li>ReimplantXenogerm</li>
-    </abilities>
-    <descriptionHyperlinks>
-      <AbilityDef>ReimplantXenogerm</AbilityDef>
-    </descriptionHyperlinks>
+  <!--Immunities-->
      <hediffGiversCannotGive>
       <li>Carcinoma</li>
       <li>HeartAttack</li>
@@ -106,55 +83,59 @@
       <li>GutWorms</li>
       <li>MuscleParasites</li>
       <li>OrganDecay</li>
+      <li>LungRotExposure</li>
     </makeImmuneTo>
     <exclusionTags>
     <li>Immunity</li>
    </exclusionTags>
+   <!--Forced Traits-->
    <forcedTraits>
       <li MayRequire="Ludeon.Rimworld.Anomaly">
         <def>PerfectMemory</def>
       </li>
-      <li>
-        <def>LK_SkillBoost</def>
-      </li>
     </forcedTraits>
+    <!--More immunities and Misc bonsuses-->
+    <preventPermanentWounds>true</preventPermanentWounds>
     <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
-    <ignoreDarkness>true</ignoreDarkness>
     <painFactor>0.5</painFactor>
     <socialFightChanceFactor>0</socialFightChanceFactor>
     <aggroMentalBreakSelectionChanceFactor>0</aggroMentalBreakSelectionChanceFactor>
     <prisonBreakMTBFactor>-1</prisonBreakMTBFactor> <!-- Never prison breaks -->
-    <immuneToVacuumBurns MayRequire="Ludeon.Rimworld.Odyssey">true</immuneToVacuumBurns>
+    <overdoseChanceFactor>0</overdoseChanceFactor>
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    <!--Skill Passion-->
+    <passionMod>
+      <skill>Cooking</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <!--Stat Increases-->
      <capMods>
       <li>
-        <capacity>Manipulation</capacity>
-        <offset>0.5</offset>
+        <capacity>Breathing</capacity>
+        <offset>0.25</offset>
       </li>
     </capMods>
+    <!--Aging-->
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(0, 1.5)</li>
+        <li>(20, 1.5)</li>
+        <li>(21, 0.0)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <!--Gene complexity etc-->
+    <biostatCpx>1</biostatCpx>
+    <biostatArc>1</biostatArc>
+    <biostatMet>8</biostatMet>
+    <displayCategory>Archite</displayCategory>
+    <!--Abilities-->
+     <abilities>
+      <li>ReimplantXenogerm</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>ReimplantXenogerm</AbilityDef>
+    </descriptionHyperlinks>
   </GeneDef>
 
-  <GeneDef>
-    <defName>LK_MoveSpeed_Space</defName>
-    <label>Gravity Master</label>
-    <labelShortAdj>grav-master</labelShortAdj>
-    <description>Carriers of this gene move and work more easily in any gravity type. </description>
-    <iconPath>UI/Icons/Genes/Gene_LowGravityAdapted</iconPath>
-    <displayOrderInCategory>20</displayOrderInCategory>
-    <conditionalStatAffecters>
-      <li Class="ConditionalStatAffecter_NotInSpace">
-        <statOffsets>
-          <MoveSpeed>0.4</MoveSpeed>
-          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-      <li Class="ConditionalStatAffecter_InSpace">
-        <statOffsets>
-          <MoveSpeed>0.4</MoveSpeed>
-          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </conditionalStatAffecters>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>1</biostatMet>
-  </GeneDef>
+  
 </Defs>
