@@ -17,13 +17,12 @@
     <factionlessGenerationWeight>.01</factionlessGenerationWeight>
     <inheritable>true</inheritable>
     <genes>
-      <li>Ageless</li>
       <li>Deathless</li>
       <li>PsychicAbility_Extreme</li>
       <li MayRequire="Ludeon.Rimworld.Odyssey">VacuumResistance_Total</li>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">LK_MoveSpeed_Space</li>
+      <li>LK_Gravity_Master</li>
       <li>Superclotting</li>
-      <li>LK_Fast_TotalHealing</li>
+      <li>LK_Evolved_Master_Gene</li>
       <li MayRequire="guy762.StarWarsXenotypes">BS_Fast_TotalHealing</li>
     </genes>
   </XenotypeDef>
