@@ -1,6 +1,9 @@
 # LK-Human-Plus-XenoType
 ---Adds Evolved Human XenoType , a custom xenotype i made in character editor that i wanted to translate to a mod Basicly think of a sanguophage without the negatives , hemogen need or need for DeathRest.  
 
+
+---Evolved Human Master gene takes most of the old genes that were on this xenotype previously and combines them into one gene.
+
 ---Adds the Evolved Humans faction a neutral faction full of this xeno type.  
 
 ---Breathless gene only shows up if you have Odyssey DLC installed. 
