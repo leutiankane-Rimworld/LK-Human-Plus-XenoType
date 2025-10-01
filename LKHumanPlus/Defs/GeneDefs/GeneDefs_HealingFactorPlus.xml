@@ -71,7 +71,9 @@
       <li>Alzheimers</li>
       <li>Asthma</li>
       <li>HeartArteryBlockage</li>
-       <li>Cirrhosis</li>
+      <li>Cirrhosis</li>
+	  <li MayRequire="Fenn.floodrace">FloodBuildup</li>
+      <li MayRequire="Fenn.floodrace">FloodInfection</li> 
     </hediffGiversCannotGive>
     <makeImmuneTo>
       <li>Flu</li>
@@ -139,3 +141,4 @@
 
   
 </Defs>
+
