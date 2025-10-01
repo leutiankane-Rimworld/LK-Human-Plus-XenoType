@@ -28,11 +28,11 @@
 			</li>
 		</backstoryFilters>
 		<visitorTraderKinds>
-			<li>Orbital_BulkGoods</li>
-      <li>Orbital_CombatSupplier</li>
-      <li>Orbital_Exotic</li>
-      <li>Orbital_PirateMerchant</li>
-		</visitorTraderKinds>
+		<li>Orbital_BulkGoods</li>
+       <li>Orbital_CombatSupplier</li>
+       <li>Orbital_Exotic</li>
+       <li>Orbital_PirateMerchant</li>
+	   </visitorTraderKinds>
 		<caravanTraderKinds>
 			<li>Orbital_BulkGoods</li>
       <li>Orbital_CombatSupplier</li>
@@ -62,6 +62,7 @@
 					<LK_HumanPlus_Leader>1</LK_HumanPlus_Leader>
 					<LK_HumanPlus_Officer>2</LK_HumanPlus_Officer>
 					<LK_HumanPlus_Trooper>20</LK_HumanPlus_Trooper>
+					<LK_HumanPlus_Trooper_Melee>10</LK_HumanPlus_Trooper_Melee>
 				</options>
 			</li>
 			<li>
@@ -70,6 +71,7 @@
 					<LK_HumanPlus_Leader>1</LK_HumanPlus_Leader>
 					<LK_HumanPlus_Officer>2</LK_HumanPlus_Officer>
 					<LK_HumanPlus_Trooper>20</LK_HumanPlus_Trooper>
+					<LK_HumanPlus_Trooper_Melee>10</LK_HumanPlus_Trooper_Melee>
 				</options>
 			</li>
 			<li>
@@ -83,6 +85,7 @@
 				<guards>
 					<LK_HumanPlus_Officer>1</LK_HumanPlus_Officer>
 					<LK_HumanPlus_Trooper>10</LK_HumanPlus_Trooper>
+					<LK_HumanPlus_Trooper_Melee>10</LK_HumanPlus_Trooper_Melee>
 				</guards>
 			</li>
 			<li>
@@ -91,12 +94,13 @@
 					<LK_HumanPlus_Leader>1</LK_HumanPlus_Leader>
 					<LK_HumanPlus_Officer>3</LK_HumanPlus_Officer>
 					<LK_HumanPlus_Trooper>20</LK_HumanPlus_Trooper>
+					<LK_HumanPlus_Trooper_Melee>10</LK_HumanPlus_Trooper_Melee>
 					<LK_HumanPlus_Citizen>5</LK_HumanPlus_Citizen>
 				</options>
 			</li>
 		</pawnGroupMakers>
     	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-		<factionIconPath>World/WorldObjects/Expanding/TradersGuild</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/PirateOutpost</factionIconPath>
         <colorSpectrum>
             <li>RGB(179, 61, 35)</li>
         </colorSpectrum>
