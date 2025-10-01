@@ -26,3 +26,5 @@ Note THIS ONLY APPLIES TO EXISTING PAWNS not others that arent on your current m
 ---Added Melee Pawnkind to the NPC faction, as well as changed the Icon for the faction itself to NOT use one requiring odyssey.
 
 ---Updated PawnKind skills to be more in line with their types.
+
+---Added Flood Infection immunity from RimFlood to the Xenotype's Genes.
