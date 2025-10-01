@@ -16,24 +16,24 @@
 		</xenotypeChances>
 		</xenotypeSet>
 		<inventoryOptions>
-			<skipChance>0.9</skipChance>
-			<subOptionsChooseOne>
+			<skipChance>0.1</skipChance>
+			<subOptionsTakeAll>
 				<li>
 					<thingDef>MedicineUltratech</thingDef>
-					<countRange>1</countRange>
+					<countRange>3</countRange>
 				</li>
 				<li>
 					<thingDef>Silver</thingDef>
 					<countRange>10~300</countRange>
 				</li>
-			</subOptionsChooseOne>
+			</subOptionsTakeAll>
 		</inventoryOptions>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Good</itemQuality>
 		<isFighter>true</isFighter>
 		<apparelMoney>
 			<min>12000</min>
-			<max>12000</max>
+			<max>30000</max>
 		</apparelMoney>
 		<apparelTags>
 			<li>IndustrialBasic</li>
@@ -68,23 +68,24 @@
 	  </weaponTags>
 		<weaponMoney>
 			<min>6000</min>
-			<max>12000</max>
+			<max>30000</max>
 		</weaponMoney>
 		<skills>
       <li>
         <skill>Shooting</skill>
         <range>6~10</range>
       </li>
+	  <li>
+        <skill>Medicine</skill>
+        <range>6~10</range>
+      </li>
     </skills>
 	<initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>13~21</initialResistanceRange>
     <useFactionXenotypes>true</useFactionXenotypes>
-	<disallowedTraits>
-      <li>Brawler</li>
-    </disallowedTraits>
 		<techHediffsMoney>
 			<min>12000</min>
-			<max>20000</max>
+			<max>30000</max>
 		</techHediffsMoney>
 		<techHediffsTags>
 		<li>Simple</li>
@@ -111,7 +112,7 @@
 	  <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_HeadgearLight</li>
 	  </apparelTags>
 	</PawnKindDef>
-<PawnKindDef ParentName="BaseLK_HumanPlusPawn">
+    <PawnKindDef ParentName="BaseLK_HumanPlusPawn">
 		<defName>LK_HumanPlus_Trooper</defName>
 		<label>evolved human trooper</label>
 		<weaponTags>
@@ -128,7 +129,36 @@
 			<li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Armor</li>
 	        <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Headgear</li>
 		</apparelTags>
+		<disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
 	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseLK_HumanPlusPawn">
+		<defName>LK_HumanPlus_Trooper_Melee</defName>
+		<label>evolved human trooper</label>
+		<weaponTags>
+	  <li>UltratechMelee</li>
+      <li>MedievalMeleeAdvanced</li>
+	  <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Melee</li>
+		</weaponTags>
+		<combatPower>240</combatPower>
+		<apparelTags>
+		    <li>IndustrialAdvanced</li>
+            <li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>Apparel_ShieldBelt</li>
+			<li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Armor_Royal</li>
+	        <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Headgear_Royal</li>
+		</apparelTags>
+		<skills>
+      <li>
+        <skill>Melee</skill>
+        <range>6~12</range>
+      </li>
+	  </skills>
+	</PawnKindDef>
+
 	<PawnKindDef ParentName="BaseLK_HumanPlusPawn">
 		<defName>LK_HumanPlus_Officer</defName>
 		<label>officer</label>
@@ -145,8 +175,17 @@
         <skill>Shooting</skill>
         <range>6~12</range>
       </li>
+	  <li>
+        <skill>Social</skill>
+        <range>15~20</range>
+      </li>
 	  </skills>
+	  <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
 	</PawnKindDef>
+
+	
 
 	<PawnKindDef ParentName="BaseLK_HumanPlusPawn">
 		<defName>LK_HumanPlus_Trader</defName>
@@ -165,6 +204,19 @@
 	        <li MayRequire="LeutianKane.ubergear">LK_Category_Ultimate_Headgear</li>
 		</apparelTags>
 		<combatPower>250</combatPower>
+		<skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>6~12</range>
+      </li>
+	  <li>
+        <skill>Social</skill>
+        <range>15~20</range>
+      </li>
+	  </skills>
+	  <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="BaseLK_HumanPlusPawn">
@@ -223,7 +275,11 @@
 		 <skills>
       <li>
         <skill>Shooting</skill>
-        <range>11~16</range>
+        <range>15~20</range>
+      </li>
+	  <li>
+        <skill>Social</skill>
+        <range>15~20</range>
       </li>
     </skills>
 	</PawnKindDef>
