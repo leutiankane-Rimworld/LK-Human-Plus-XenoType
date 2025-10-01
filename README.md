@@ -22,3 +22,7 @@
 
 ---Sept. 29,2025 update will require you to enable developer mode if you have an existing save with colonists of this xenotype, then go into Bio Tab click on their Xenotype and use the developer mode to reset genes to base (the last option on the list). this will fix the missing gene from me changing the def name of it.
 Note THIS ONLY APPLIES TO EXISTING PAWNS not others that arent on your current map.
+
+---Added Melee Pawnkind to the NPC faction, as well as changed the Icon for the faction itself to NOT use one requiring odyssey.
+
+---Updated PawnKind skills to be more in line with their types.
