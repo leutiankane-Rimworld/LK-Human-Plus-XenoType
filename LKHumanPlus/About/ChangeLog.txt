@@ -1,7 +1,7 @@
 # Changelog for LK Human Plus XenoType
 # Author is LeutianKane
 
-2.0.1.1 ---Added Immunities for RimFlood Flood infection and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3577005360]Zombieland[/url] zombie infections.
+2.0.1.1 ---Added Immunities for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2348148745]RimFlood[/url] Flood infection and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3577005360]Zombieland[/url] zombie infections.
 
 2.0.1.0 ---Added Versioning to mod to use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2161604688]Auto Changenote[/url] mod.
         ---Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3582303947]Silent Foot[/url] mod.
@@ -9,3 +9,4 @@
 
 
          
+
