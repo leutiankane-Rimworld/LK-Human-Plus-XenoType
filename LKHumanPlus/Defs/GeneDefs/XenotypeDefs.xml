@@ -24,6 +24,7 @@
       <li>Superclotting</li>
       <li>LK_Evolved_Master_Gene</li>
       <li MayRequire="guy762.StarWarsXenotypes">BS_Fast_TotalHealing</li>
+      <li MayRequire="bardez.genetics.archotechstack">ArchostackGene</li>
     </genes>
   </XenotypeDef>
 
@@ -42,6 +43,7 @@
     <inheritable>true</inheritable>
     <genes>
       <li>LK_VOIDGene</li>
+      <li MayRequire="bardez.genetics.archotechstack">ArchostackGene</li>
     </genes>
   </XenotypeDef>
 </Defs>
