@@ -503,7 +503,6 @@
 	  <li>Brawler</li>
     </disallowedTraits>
 		<combatPower>350</combatPower>
-		<factionLeader>false</factionLeader>
 		<minGenerationAge>30</minGenerationAge>
 		 <skills>
       <li>
@@ -609,3 +608,4 @@
 	</PawnKindDef>
 
 </Defs>
+
