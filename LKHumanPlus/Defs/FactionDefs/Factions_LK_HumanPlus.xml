@@ -20,6 +20,9 @@
 		<fixedName>Evolved Humans</fixedName>
     	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Ultra</techLevel>
+		<fixedLeaderKinds>
+		<li>HumanPlus_Royal_Stellarch</li>
+		</fixedLeaderKinds>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -163,6 +166,9 @@
 		<fixedName>Evolved Human Militia</fixedName>
     	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Ultra</techLevel>
+		<fixedLeaderKinds>
+		<li>HumanPlus_Royal_Stellarch</li>
+		</fixedLeaderKinds>
 		<backstoryFilters>
 			<li>
 				<categories>
