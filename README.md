@@ -4,7 +4,9 @@
 
 ---Evolved Human Master gene takes most of the old genes that were on this xenotype previously and combines them into one gene.
 
----Adds the Evolved Humans faction a neutral faction and Evolved Human Militia Hostile faction full of this xeno type.  
+---Adds the Evolved Humans faction a neutral faction full of this xeno type.  
+
+---Adds Evolved Human Militia Hostile faction full of this xenotype.
 
 ---Breathless gene only shows up if you have Odyssey DLC installed. 
 
@@ -15,8 +17,6 @@
 ---All Xenogenes are now Endogenes now so they're inheritable.
 
 ---Added Gravity Master Gene which gives a bonus whether on planet or in space.
-
----Added new trait that gives +4 to all skills that is forced by the Main Gene for this xeno.
 
 ---If LK Ultimate Armory mod is installed , grants chance for the gear to spawn on the Evolved Humans and every other faction along with normal gear 
 
