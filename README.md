@@ -29,4 +29,4 @@ Note THIS ONLY APPLIES TO EXISTING PAWNS not others that arent on your current m
 
 ---Added Flood Infection immunity from RimFlood to the Xenotype's Genes.
 
----See Changelog.txt for more recent updates.
+---See Changelog.txt in the About folder for more recent updates.
