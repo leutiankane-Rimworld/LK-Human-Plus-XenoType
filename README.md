@@ -28,3 +28,4 @@ Note THIS ONLY APPLIES TO EXISTING PAWNS not others that arent on your current m
 ---Updated PawnKind skills to be more in line with their types.
 
 ---Added Flood Infection immunity from RimFlood to the Xenotype's Genes.
+---See Changelog.txt for more recent updates.
