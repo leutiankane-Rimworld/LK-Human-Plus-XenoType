@@ -4,7 +4,7 @@
 
 ---Evolved Human Master gene takes most of the old genes that were on this xenotype previously and combines them into one gene.
 
----Adds the Evolved Humans faction a neutral faction full of this xeno type.  
+---Adds the Evolved Humans faction a neutral faction and Evolved Humanoid Militia Hostile faction full of this xeno type.  
 
 ---Breathless gene only shows up if you have Odyssey DLC installed. 
 
