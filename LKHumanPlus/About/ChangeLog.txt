@@ -1,6 +1,6 @@
 # Changelog for LK Human Plus XenoType
 # Author is LeutianKane
-2.0.1.6 ---Added a Max Pawn Geneartion age of 35 to the player faction.
+2.0.1.6 ---Added a Max Pawn Generation age of 35 to the player faction.
 2.0.1.5 ---ReAdded some specific damage type reductions to make pawns a bit less squishy.
 2.0.1.4 ---Fixed Faction Leader Errors Thanks Lee!
 2.0.1.3 ---Nerfed damage reduction so pawns can actually be downed. 
@@ -12,5 +12,6 @@
 2.0.1.0 ---Added Versioning to mod to use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2161604688]Auto Changenote[/url] mod.
         ---Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3582303947]Silent Foot[/url] mod.
         
+
 
          
