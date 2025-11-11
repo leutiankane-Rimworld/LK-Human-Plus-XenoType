@@ -1,5 +1,7 @@
 # Changelog for LK Human Plus XenoType
 # Author is LeutianKane
+2.0.2.0 ---Added Scaria Immunity.
+2.0.1.9 ---Fixed melee damage nerf
 2.0.1.8 ---Added Children starting scenario where the oldest pawn that generates will be 18. Same as adult scenario otherwise.
 2.0.1.7 ---Reduced starting pawn selection to 4 pawns for those not using character editor or prepare carefully to leave pawns behind.
 2.0.1.6 ---Added a Max Pawn Generation age of 35 to the player faction.
@@ -14,5 +16,6 @@
 2.0.1.0 ---Added Versioning to mod to use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2161604688]Auto Changenote[/url] mod.
         ---Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3582303947]Silent Foot[/url] mod.
         
+
 
          
