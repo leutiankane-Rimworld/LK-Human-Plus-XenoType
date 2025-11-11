@@ -81,18 +81,6 @@
           <HuntingStealth>0.5</HuntingStealth>
     </statOffsets>
      <damageFactors>
-      <Blunt>0.1</Blunt>
-      <Bomb>0.1</Bomb>
-      <Bullet>0.1</Bullet>
-      <Burn>0</Burn>
-      <Cut>0.1</Cut>
-      <Demolish>0.1</Demolish>
-      <EMP>0.1</EMP>
-      <Flame>0</Flame>
-      <Scratch>0.1</Scratch>
-      <Stab>0.1</Stab>
-      <RangedStab>0.1</RangedStab>
-      <Thump>0.1</Thump>
       <Vaporize>0.1</Vaporize>
       <AcidBurn>0.1</AcidBurn>
       <BulletToxic MayRequire="Ludeon.RimWorld.Biotech">0.1</BulletToxic>
@@ -114,6 +102,7 @@
       <li>HeartArteryBlockage</li>
       <li>Cirrhosis</li>
       <li>BloodLoss</li>
+	  <li>ScariaInfection</li>
       <li MayRequire="Fenn.floodrace">FloodBuildup</li>
       <li MayRequire="Fenn.floodrace">FloodInfection</li>
       <li MayRequire="brrainz.zombieland">ZombieBite</li>
@@ -186,4 +175,5 @@
   </GeneDef>
 
   
+
 </Defs>
