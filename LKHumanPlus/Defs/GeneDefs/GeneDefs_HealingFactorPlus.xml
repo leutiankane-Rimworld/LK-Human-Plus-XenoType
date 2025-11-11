@@ -48,8 +48,6 @@
       <SM_AcidDmgMult MayRequire="RedMattis.BetterPrerequisites">0.001</SM_AcidDmgMult>
       <SM_BulletDmgMult MayRequire="RedMattis.BetterPrerequisites">0.001</SM_BulletDmgMult>
       <SM_ConcussiveDmgMult MayRequire="RedMattis.BetterPrerequisites">0.001</SM_ConcussiveDmgMult>
-      <VEF_MeleeAttackDamageFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">1</VEF_MeleeAttackDamageFactor>
-      <VEF_MeleeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">0.1</VEF_MeleeAttackSpeedFactor>
     </statFactors>
     <!--More Stat Multiplier Adjusters-->
     <statOffsets>
@@ -177,3 +175,4 @@
   
 
 </Defs>
+
