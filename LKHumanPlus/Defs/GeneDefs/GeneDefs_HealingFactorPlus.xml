@@ -106,7 +106,6 @@
       <li>BloodLoss</li>
       <li>ScariaInfection</li>
       <li MayRequire="Ludeon.RimWorld.Anomaly">AgonyPulse</li>
-      <li MayRequire="Ludeon.RimWorld.Anomaly">organ decay</li>
       <li MayRequire="Ludeon.RimWorld.Anomaly">BloodRage</li>
       <li MayRequire="Ludeon.RimWorld.Anomaly">CubeInterest</li>
       <li MayRequire="Ludeon.RimWorld.Anomaly">CubeWithdrawal</li>
@@ -184,4 +183,5 @@
   </GeneDef>
 
   
+
 </Defs>
